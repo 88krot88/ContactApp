@@ -139,7 +139,7 @@
 			// SurnameTextBox
 			// 
 			SurnameTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-			SurnameTextBox.Location = new Point(104, 10);
+			SurnameTextBox.Location = new Point(103, 10);
 			SurnameTextBox.Margin = new Padding(4, 5, 4, 5);
 			SurnameTextBox.Name = "SurnameTextBox";
 			SurnameTextBox.ReadOnly = true;
@@ -149,7 +149,7 @@
 			// NameTextBox
 			// 
 			NameTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-			NameTextBox.Location = new Point(104, 57);
+			NameTextBox.Location = new Point(103, 57);
 			NameTextBox.Margin = new Padding(4, 5, 4, 5);
 			NameTextBox.Name = "NameTextBox";
 			NameTextBox.ReadOnly = true;
@@ -159,7 +159,7 @@
 			// PhoneTextBox
 			// 
 			PhoneTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-			PhoneTextBox.Location = new Point(104, 151);
+			PhoneTextBox.Location = new Point(103, 151);
 			PhoneTextBox.Margin = new Padding(4, 5, 4, 5);
 			PhoneTextBox.Name = "PhoneTextBox";
 			PhoneTextBox.ReadOnly = true;
@@ -169,7 +169,7 @@
 			// EmailTextBox
 			// 
 			EmailTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-			EmailTextBox.Location = new Point(104, 198);
+			EmailTextBox.Location = new Point(103, 198);
 			EmailTextBox.Margin = new Padding(4, 5, 4, 5);
 			EmailTextBox.Name = "EmailTextBox";
 			EmailTextBox.ReadOnly = true;
@@ -179,7 +179,7 @@
 			// VkIDTextBox
 			// 
 			VkIDTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-			VkIDTextBox.Location = new Point(104, 246);
+			VkIDTextBox.Location = new Point(103, 246);
 			VkIDTextBox.Margin = new Padding(4, 5, 4, 5);
 			VkIDTextBox.Name = "VkIDTextBox";
 			VkIDTextBox.ReadOnly = true;
@@ -191,7 +191,7 @@
 			SurnameLabel.Anchor = AnchorStyles.Right;
 			SurnameLabel.AutoSize = true;
 			SurnameLabel.Font = new Font("Microsoft Sans Serif", 8.25F);
-			SurnameLabel.Location = new Point(27, 15);
+			SurnameLabel.Location = new Point(26, 15);
 			SurnameLabel.Margin = new Padding(4, 0, 4, 0);
 			SurnameLabel.Name = "SurnameLabel";
 			SurnameLabel.Size = new Size(69, 17);
@@ -203,7 +203,7 @@
 			NameLabel.Anchor = AnchorStyles.Right;
 			NameLabel.AutoSize = true;
 			NameLabel.Font = new Font("Microsoft Sans Serif", 8.25F);
-			NameLabel.Location = new Point(47, 62);
+			NameLabel.Location = new Point(46, 62);
 			NameLabel.Margin = new Padding(4, 0, 4, 0);
 			NameLabel.Name = "NameLabel";
 			NameLabel.Size = new Size(49, 17);
@@ -215,7 +215,7 @@
 			EmailLabel.Anchor = AnchorStyles.Right;
 			EmailLabel.AutoSize = true;
 			EmailLabel.Font = new Font("Microsoft Sans Serif", 8.25F);
-			EmailLabel.Location = new Point(46, 203);
+			EmailLabel.Location = new Point(45, 203);
 			EmailLabel.Margin = new Padding(4, 0, 4, 0);
 			EmailLabel.Name = "EmailLabel";
 			EmailLabel.Size = new Size(50, 17);
@@ -227,7 +227,7 @@
 			BirthdayLabel.Anchor = AnchorStyles.Right;
 			BirthdayLabel.AutoSize = true;
 			BirthdayLabel.Font = new Font("Microsoft Sans Serif", 8.25F);
-			BirthdayLabel.Location = new Point(32, 109);
+			BirthdayLabel.Location = new Point(31, 109);
 			BirthdayLabel.Margin = new Padding(4, 0, 4, 0);
 			BirthdayLabel.Name = "BirthdayLabel";
 			BirthdayLabel.Size = new Size(64, 17);
@@ -239,7 +239,7 @@
 			PhoneLabel.Anchor = AnchorStyles.Right;
 			PhoneLabel.AutoSize = true;
 			PhoneLabel.Font = new Font("Microsoft Sans Serif", 8.25F);
-			PhoneLabel.Location = new Point(43, 156);
+			PhoneLabel.Location = new Point(42, 156);
 			PhoneLabel.Margin = new Padding(4, 0, 4, 0);
 			PhoneLabel.Name = "PhoneLabel";
 			PhoneLabel.Size = new Size(53, 17);
@@ -251,7 +251,7 @@
 			VkIDLabel.Anchor = AnchorStyles.Right;
 			VkIDLabel.AutoSize = true;
 			VkIDLabel.Font = new Font("Microsoft Sans Serif", 8.25F);
-			VkIDLabel.Location = new Point(40, 251);
+			VkIDLabel.Location = new Point(39, 251);
 			VkIDLabel.Margin = new Padding(4, 0, 4, 0);
 			VkIDLabel.Name = "VkIDLabel";
 			VkIDLabel.Size = new Size(56, 17);
@@ -261,7 +261,7 @@
 			// BirthdayDateTimePicker
 			// 
 			BirthdayDateTimePicker.Anchor = AnchorStyles.Left;
-			BirthdayDateTimePicker.Location = new Point(104, 104);
+			BirthdayDateTimePicker.Location = new Point(103, 104);
 			BirthdayDateTimePicker.Margin = new Padding(4, 5, 4, 5);
 			BirthdayDateTimePicker.MaxDate = new DateTime(2021, 12, 22, 0, 0, 0, 0);
 			BirthdayDateTimePicker.MinDate = new DateTime(1900, 1, 1, 0, 0, 0, 0);
@@ -298,7 +298,7 @@
 			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
 			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
 			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
-			tableLayoutPanel1.Size = new Size(651, 285);
+			tableLayoutPanel1.Size = new Size(650, 285);
 			tableLayoutPanel1.TabIndex = 21;
 			// 
 			// Findlabel
@@ -321,6 +321,7 @@
 			FindTextBox.Name = "FindTextBox";
 			FindTextBox.Size = new Size(313, 27);
 			FindTextBox.TabIndex = 13;
+			FindTextBox.TextChanged += FindTextBox_TextChanged;
 			// 
 			// tableLayoutPanel2
 			// 
@@ -494,8 +495,8 @@
 			// 
 			splitContainer2.Panel2.Controls.Add(NamesBirthdayPeopleLabel);
 			splitContainer2.Panel2.Controls.Add(BirtdayLabel);
-			splitContainer2.Size = new Size(651, 138);
-			splitContainer2.SplitterDistance = 90;
+			splitContainer2.Size = new Size(650, 138);
+			splitContainer2.SplitterDistance = 89;
 			splitContainer2.SplitterWidth = 5;
 			splitContainer2.TabIndex = 23;
 			// 
@@ -543,6 +544,7 @@
 			MinimumSize = new Size(1087, 707);
 			Name = "MainForm";
 			Text = "ContactsApp";
+			FormClosing += MainForm_FormClosing;
 			Load += MainForm_Load;
 			menuStrip1.ResumeLayout(false);
 			menuStrip1.PerformLayout();
