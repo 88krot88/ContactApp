@@ -143,7 +143,7 @@
 			SurnameTextBox.Margin = new Padding(4, 5, 4, 5);
 			SurnameTextBox.Name = "SurnameTextBox";
 			SurnameTextBox.ReadOnly = true;
-			SurnameTextBox.Size = new Size(547, 27);
+			SurnameTextBox.Size = new Size(543, 27);
 			SurnameTextBox.TabIndex = 1;
 			// 
 			// NameTextBox
@@ -153,7 +153,7 @@
 			NameTextBox.Margin = new Padding(4, 5, 4, 5);
 			NameTextBox.Name = "NameTextBox";
 			NameTextBox.ReadOnly = true;
-			NameTextBox.Size = new Size(547, 27);
+			NameTextBox.Size = new Size(543, 27);
 			NameTextBox.TabIndex = 2;
 			// 
 			// PhoneTextBox
@@ -163,7 +163,7 @@
 			PhoneTextBox.Margin = new Padding(4, 5, 4, 5);
 			PhoneTextBox.Name = "PhoneTextBox";
 			PhoneTextBox.ReadOnly = true;
-			PhoneTextBox.Size = new Size(547, 27);
+			PhoneTextBox.Size = new Size(543, 27);
 			PhoneTextBox.TabIndex = 3;
 			// 
 			// EmailTextBox
@@ -173,7 +173,7 @@
 			EmailTextBox.Margin = new Padding(4, 5, 4, 5);
 			EmailTextBox.Name = "EmailTextBox";
 			EmailTextBox.ReadOnly = true;
-			EmailTextBox.Size = new Size(547, 27);
+			EmailTextBox.Size = new Size(543, 27);
 			EmailTextBox.TabIndex = 5;
 			// 
 			// VkIDTextBox
@@ -183,7 +183,7 @@
 			VkIDTextBox.Margin = new Padding(4, 5, 4, 5);
 			VkIDTextBox.Name = "VkIDTextBox";
 			VkIDTextBox.ReadOnly = true;
-			VkIDTextBox.Size = new Size(547, 27);
+			VkIDTextBox.Size = new Size(543, 27);
 			VkIDTextBox.TabIndex = 6;
 			// 
 			// SurnameLabel
@@ -298,7 +298,7 @@
 			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
 			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
 			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
-			tableLayoutPanel1.Size = new Size(655, 285);
+			tableLayoutPanel1.Size = new Size(651, 285);
 			tableLayoutPanel1.TabIndex = 21;
 			// 
 			// Findlabel
@@ -494,8 +494,8 @@
 			// 
 			splitContainer2.Panel2.Controls.Add(NamesBirthdayPeopleLabel);
 			splitContainer2.Panel2.Controls.Add(BirtdayLabel);
-			splitContainer2.Size = new Size(655, 138);
-			splitContainer2.SplitterDistance = 94;
+			splitContainer2.Size = new Size(651, 138);
+			splitContainer2.SplitterDistance = 90;
 			splitContainer2.SplitterWidth = 5;
 			splitContainer2.TabIndex = 23;
 			// 

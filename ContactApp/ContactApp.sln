@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactAppUI", "ContactAppUI\ContactAppUI.csproj", "{F89BEA33-A9DD-49F3-B54E-811E2CD19FB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactAppUI", "ContactAppUI\ContactAppUI.csproj", "{F89BEA33-A9DD-49F3-B54E-811E2CD19FB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactApp", "ContactApp\ContactApp.csproj", "{3E9C495B-94C3-49FF-9923-61C6B0A3BA81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactApp", "ContactApp\ContactApp.csproj", "{3E9C495B-94C3-49FF-9923-61C6B0A3BA81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactAppTests", "ContactAppTests\ContactAppTests.csproj", "{5CBCE7D4-4B50-49D9-BA25-0D5B9192962B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3E9C495B-94C3-49FF-9923-61C6B0A3BA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E9C495B-94C3-49FF-9923-61C6B0A3BA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E9C495B-94C3-49FF-9923-61C6B0A3BA81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CBCE7D4-4B50-49D9-BA25-0D5B9192962B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CBCE7D4-4B50-49D9-BA25-0D5B9192962B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CBCE7D4-4B50-49D9-BA25-0D5B9192962B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CBCE7D4-4B50-49D9-BA25-0D5B9192962B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
