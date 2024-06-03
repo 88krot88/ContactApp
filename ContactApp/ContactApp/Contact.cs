@@ -92,10 +92,6 @@ namespace ContactsApp
             }
             set
             {
-                  if (value.DayOfYear <= 1900)
-                {
-                    throw new ArgumentException("AAA");
-                }
                 _dateBirth = value;
             }
         }
@@ -159,10 +155,15 @@ namespace ContactsApp
             this.Email = email;
             this.VKID = vkID;
         }
-        /// <summary>
-        /// Makes a copy of the object <see cref="Contact"/>
-        /// </summary>
-        public object Clone()
+
+		public Contact()
+		{
+		}
+
+		/// <summary>
+		/// Makes a copy of the object <see cref="Contact"/>
+		/// </summary>
+		public object Clone()
         {
             return new Contact(Surname = this.Surname, Name = this.Name,
                 Number = this.Number, DateBirth = this.DateBirth,

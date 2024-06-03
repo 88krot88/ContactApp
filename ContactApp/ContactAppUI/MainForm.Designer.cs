@@ -20,527 +20,557 @@
             base.Dispose(disposing);
         }
 
-        #region Код, автоматически созданный конструктором форм Windows
+		#region Код, автоматически созданный конструктором форм Windows
 
-        /// <summary>
-        /// Требуемый метод для поддержки конструктора — не изменяйте 
-        /// содержимое этого метода с помощью редактора кода.
-        /// </summary>
-        private void InitializeComponent()
-        {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addContactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editContactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.deToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.SurnameTextBox = new System.Windows.Forms.TextBox();
-            this.NameTextBox = new System.Windows.Forms.TextBox();
-            this.PhoneTextBox = new System.Windows.Forms.TextBox();
-            this.EmailTextBox = new System.Windows.Forms.TextBox();
-            this.VkIDTextBox = new System.Windows.Forms.TextBox();
-            this.SurnameLabel = new System.Windows.Forms.Label();
-            this.NameLabel = new System.Windows.Forms.Label();
-            this.EmailLabel = new System.Windows.Forms.Label();
-            this.BirthdayLabel = new System.Windows.Forms.Label();
-            this.PhoneLabel = new System.Windows.Forms.Label();
-            this.VkIDLabel = new System.Windows.Forms.Label();
-            this.BirthdayDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.Findlabel = new System.Windows.Forms.Label();
-            this.FindTextBox = new System.Windows.Forms.TextBox();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.AllContactsListBox = new System.Windows.Forms.ListBox();
-            this.RemoveTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.RemoveButton = new System.Windows.Forms.Button();
-            this.EditTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.EditButton = new System.Windows.Forms.Button();
-            this.AddTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.AddButton = new System.Windows.Forms.Button();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.NamesBirthdayPeopleLabel = new System.Windows.Forms.Label();
-            this.BirtdayLabel = new System.Windows.Forms.Label();
-            this.menuStrip1.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-            this.splitContainer1.Panel1.SuspendLayout();
-            this.splitContainer1.Panel2.SuspendLayout();
-            this.splitContainer1.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
-            this.RemoveTableLayoutPanel.SuspendLayout();
-            this.EditTableLayoutPanel.SuspendLayout();
-            this.AddTableLayoutPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
-            this.splitContainer2.Panel1.SuspendLayout();
-            this.splitContainer2.Panel2.SuspendLayout();
-            this.splitContainer2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.editToolStripMenuItem,
-            this.helpToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(804, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "FileEditHelp";
-            // 
-            // fileToolStripMenuItem
-            // 
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
-            // 
-            // editToolStripMenuItem
-            // 
-            this.editToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addContactToolStripMenuItem,
-            this.editContactToolStripMenuItem,
-            this.deToolStripMenuItem});
-            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            this.editToolStripMenuItem.Text = "Edit";
-            // 
-            // addContactToolStripMenuItem
-            // 
-            this.addContactToolStripMenuItem.Name = "addContactToolStripMenuItem";
-            this.addContactToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
-            this.addContactToolStripMenuItem.Text = "Add Contact";
-            // 
-            // editContactToolStripMenuItem
-            // 
-            this.editContactToolStripMenuItem.Name = "editContactToolStripMenuItem";
-            this.editContactToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
-            this.editContactToolStripMenuItem.Text = "Edit Contact";
-            // 
-            // deToolStripMenuItem
-            // 
-            this.deToolStripMenuItem.Name = "deToolStripMenuItem";
-            this.deToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
-            this.deToolStripMenuItem.Text = "Remove Contact";
-            // 
-            // helpToolStripMenuItem
-            // 
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // SurnameTextBox
-            // 
-            this.SurnameTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.SurnameTextBox.Location = new System.Drawing.Point(81, 5);
-            this.SurnameTextBox.Name = "SurnameTextBox";
-            this.SurnameTextBox.ReadOnly = true;
-            this.SurnameTextBox.Size = new System.Drawing.Size(426, 20);
-            this.SurnameTextBox.TabIndex = 1;
-            // 
-            // NameTextBox
-            // 
-            this.NameTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.NameTextBox.Location = new System.Drawing.Point(81, 35);
-            this.NameTextBox.Name = "NameTextBox";
-            this.NameTextBox.ReadOnly = true;
-            this.NameTextBox.Size = new System.Drawing.Size(426, 20);
-            this.NameTextBox.TabIndex = 2;
-            // 
-            // PhoneTextBox
-            // 
-            this.PhoneTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.PhoneTextBox.Location = new System.Drawing.Point(81, 95);
-            this.PhoneTextBox.Name = "PhoneTextBox";
-            this.PhoneTextBox.ReadOnly = true;
-            this.PhoneTextBox.Size = new System.Drawing.Size(426, 20);
-            this.PhoneTextBox.TabIndex = 3;
-            // 
-            // EmailTextBox
-            // 
-            this.EmailTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.EmailTextBox.Location = new System.Drawing.Point(81, 125);
-            this.EmailTextBox.Name = "EmailTextBox";
-            this.EmailTextBox.ReadOnly = true;
-            this.EmailTextBox.Size = new System.Drawing.Size(426, 20);
-            this.EmailTextBox.TabIndex = 5;
-            // 
-            // VkIDTextBox
-            // 
-            this.VkIDTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.VkIDTextBox.Location = new System.Drawing.Point(81, 157);
-            this.VkIDTextBox.Name = "VkIDTextBox";
-            this.VkIDTextBox.ReadOnly = true;
-            this.VkIDTextBox.Size = new System.Drawing.Size(426, 20);
-            this.VkIDTextBox.TabIndex = 6;
-            // 
-            // SurnameLabel
-            // 
-            this.SurnameLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.SurnameLabel.AutoSize = true;
-            this.SurnameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.SurnameLabel.Location = new System.Drawing.Point(23, 8);
-            this.SurnameLabel.Name = "SurnameLabel";
-            this.SurnameLabel.Size = new System.Drawing.Size(52, 13);
-            this.SurnameLabel.TabIndex = 7;
-            this.SurnameLabel.Text = "Surname:";
-            // 
-            // NameLabel
-            // 
-            this.NameLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.NameLabel.AutoSize = true;
-            this.NameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.NameLabel.Location = new System.Drawing.Point(37, 38);
-            this.NameLabel.Name = "NameLabel";
-            this.NameLabel.Size = new System.Drawing.Size(38, 13);
-            this.NameLabel.TabIndex = 8;
-            this.NameLabel.Text = "Name:";
-            // 
-            // EmailLabel
-            // 
-            this.EmailLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.EmailLabel.AutoSize = true;
-            this.EmailLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.EmailLabel.Location = new System.Drawing.Point(38, 128);
-            this.EmailLabel.Name = "EmailLabel";
-            this.EmailLabel.Size = new System.Drawing.Size(37, 13);
-            this.EmailLabel.TabIndex = 9;
-            this.EmailLabel.Text = "e-mail:";
-            // 
-            // BirthdayLabel
-            // 
-            this.BirthdayLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.BirthdayLabel.AutoSize = true;
-            this.BirthdayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.BirthdayLabel.Location = new System.Drawing.Point(27, 68);
-            this.BirthdayLabel.Name = "BirthdayLabel";
-            this.BirthdayLabel.Size = new System.Drawing.Size(48, 13);
-            this.BirthdayLabel.TabIndex = 10;
-            this.BirthdayLabel.Text = "Birthday:";
-            // 
-            // PhoneLabel
-            // 
-            this.PhoneLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.PhoneLabel.AutoSize = true;
-            this.PhoneLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.PhoneLabel.Location = new System.Drawing.Point(34, 98);
-            this.PhoneLabel.Name = "PhoneLabel";
-            this.PhoneLabel.Size = new System.Drawing.Size(41, 13);
-            this.PhoneLabel.TabIndex = 11;
-            this.PhoneLabel.Text = "Phone:";
-            // 
-            // VkIDLabel
-            // 
-            this.VkIDLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.VkIDLabel.AutoSize = true;
-            this.VkIDLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.VkIDLabel.Location = new System.Drawing.Point(30, 161);
-            this.VkIDLabel.Name = "VkIDLabel";
-            this.VkIDLabel.Size = new System.Drawing.Size(45, 13);
-            this.VkIDLabel.TabIndex = 12;
-            this.VkIDLabel.Text = "vk.com:";
-            // 
-            // BirthdayDateTimePicker
-            // 
-            this.BirthdayDateTimePicker.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.BirthdayDateTimePicker.Location = new System.Drawing.Point(81, 65);
-            this.BirthdayDateTimePicker.MaxDate = new System.DateTime(2021, 12, 22, 0, 0, 0, 0);
-            this.BirthdayDateTimePicker.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
-            this.BirthdayDateTimePicker.Name = "BirthdayDateTimePicker";
-            this.BirthdayDateTimePicker.Size = new System.Drawing.Size(147, 20);
-            this.BirthdayDateTimePicker.TabIndex = 15;
-            this.BirthdayDateTimePicker.Value = new System.DateTime(2020, 7, 6, 0, 0, 0, 0);
-            // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.38461F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 84.61539F));
-            this.tableLayoutPanel1.Controls.Add(this.NameLabel, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.NameTextBox, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.BirthdayLabel, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.BirthdayDateTimePicker, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.PhoneLabel, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.PhoneTextBox, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.VkIDTextBox, 1, 5);
-            this.tableLayoutPanel1.Controls.Add(this.VkIDLabel, 0, 5);
-            this.tableLayoutPanel1.Controls.Add(this.EmailTextBox, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.SurnameTextBox, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.EmailLabel, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.SurnameLabel, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 6;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(510, 185);
-            this.tableLayoutPanel1.TabIndex = 21;
-            // 
-            // Findlabel
-            // 
-            this.Findlabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.Findlabel.AutoSize = true;
-            this.Findlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.Findlabel.Location = new System.Drawing.Point(3, 8);
-            this.Findlabel.Name = "Findlabel";
-            this.Findlabel.Size = new System.Drawing.Size(30, 13);
-            this.Findlabel.TabIndex = 16;
-            this.Findlabel.Text = "Find:";
-            // 
-            // FindTextBox
-            // 
-            this.FindTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.FindTextBox.Location = new System.Drawing.Point(39, 4);
-            this.FindTextBox.Name = "FindTextBox";
-            this.FindTextBox.Size = new System.Drawing.Size(236, 20);
-            this.FindTextBox.TabIndex = 13;
-            // 
-            // tableLayoutPanel2
-            // 
-            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel2.ColumnCount = 2;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 13.30935F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 86.69065F));
-            this.tableLayoutPanel2.Controls.Add(this.Findlabel, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.FindTextBox, 1, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 1;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(278, 29);
-            this.tableLayoutPanel2.TabIndex = 22;
-            // 
-            // splitContainer1
-            // 
-            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 24);
-            this.splitContainer1.Name = "splitContainer1";
-            // 
-            // splitContainer1.Panel1
-            // 
-            this.splitContainer1.Panel1.Controls.Add(this.tableLayoutPanel3);
-            this.splitContainer1.Panel1.Controls.Add(this.RemoveTableLayoutPanel);
-            this.splitContainer1.Panel1.Controls.Add(this.EditTableLayoutPanel);
-            this.splitContainer1.Panel1.Controls.Add(this.AddTableLayoutPanel);
-            this.splitContainer1.Panel1.Controls.Add(this.tableLayoutPanel2);
-            // 
-            // splitContainer1.Panel2
-            // 
-            this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Panel2.Controls.Add(this.tableLayoutPanel1);
-            this.splitContainer1.Size = new System.Drawing.Size(804, 414);
-            this.splitContainer1.SplitterDistance = 284;
-            this.splitContainer1.TabIndex = 25;
-            // 
-            // tableLayoutPanel3
-            // 
-            this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel3.ColumnCount = 1;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.AllContactsListBox, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 33);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(278, 338);
-            this.tableLayoutPanel3.TabIndex = 25;
-            // 
-            // AllContactsListBox
-            // 
-            this.AllContactsListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.AllContactsListBox.FormattingEnabled = true;
-            this.AllContactsListBox.Location = new System.Drawing.Point(3, 3);
-            this.AllContactsListBox.Name = "AllContactsListBox";
-            this.AllContactsListBox.ScrollAlwaysVisible = true;
-            this.AllContactsListBox.Size = new System.Drawing.Size(272, 329);
-            this.AllContactsListBox.TabIndex = 17;
-            // RemoveTableLayoutPanel
-            // 
-            this.RemoveTableLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.RemoveTableLayoutPanel.ColumnCount = 1;
-            this.RemoveTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.RemoveTableLayoutPanel.Controls.Add(this.RemoveButton, 0, 0);
-            this.RemoveTableLayoutPanel.Location = new System.Drawing.Point(69, 377);
-            this.RemoveTableLayoutPanel.Name = "RemoveTableLayoutPanel";
-            this.RemoveTableLayoutPanel.RowCount = 1;
-            this.RemoveTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.RemoveTableLayoutPanel.Size = new System.Drawing.Size(30, 30);
-            this.RemoveTableLayoutPanel.TabIndex = 26;
-            // 
-            // RemoveButton
-            // 
-            this.RemoveButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.RemoveButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.RemoveButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
-            this.RemoveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RemoveButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.RemoveButton.Location = new System.Drawing.Point(3, 3);
-            this.RemoveButton.Name = "RemoveButton";
-            this.RemoveButton.Size = new System.Drawing.Size(24, 24);
-            this.RemoveButton.TabIndex = 20;
-            this.RemoveButton.UseVisualStyleBackColor = true;
-            // 
-            // EditTableLayoutPanel
-            // 
-            this.EditTableLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.EditTableLayoutPanel.ColumnCount = 1;
-            this.EditTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.EditTableLayoutPanel.Controls.Add(this.EditButton, 0, 0);
-            this.EditTableLayoutPanel.Location = new System.Drawing.Point(36, 377);
-            this.EditTableLayoutPanel.Name = "EditTableLayoutPanel";
-            this.EditTableLayoutPanel.RowCount = 1;
-            this.EditTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.EditTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.EditTableLayoutPanel.Size = new System.Drawing.Size(30, 30);
-            this.EditTableLayoutPanel.TabIndex = 26;
-            // 
-            // EditButton
-            // 
-            this.EditButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.EditButton.BackColor = System.Drawing.SystemColors.Control;
-            this.EditButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.EditButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
-            this.EditButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EditButton.Location = new System.Drawing.Point(3, 3);
-            this.EditButton.Name = "EditButton";
-            this.EditButton.Size = new System.Drawing.Size(24, 24);
-            this.EditButton.TabIndex = 19;
-            this.EditButton.UseVisualStyleBackColor = false;
-            // 
-            // AddTableLayoutPanel
-            // 
-            this.AddTableLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.AddTableLayoutPanel.ColumnCount = 1;
-            this.AddTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.AddTableLayoutPanel.Controls.Add(this.AddButton, 0, 0);
-            this.AddTableLayoutPanel.Location = new System.Drawing.Point(3, 377);
-            this.AddTableLayoutPanel.Name = "AddTableLayoutPanel";
-            this.AddTableLayoutPanel.RowCount = 1;
-            this.AddTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.AddTableLayoutPanel.Size = new System.Drawing.Size(30, 30);
-            this.AddTableLayoutPanel.TabIndex = 25;
-            // 
-            // AddButton
-            // 
-            this.AddButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.AddButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.AddButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
-            this.AddButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AddButton.Location = new System.Drawing.Point(3, 3);
-            this.AddButton.Name = "AddButton";
-            this.AddButton.Size = new System.Drawing.Size(24, 24);
-            this.AddButton.TabIndex = 18;
-            this.AddButton.UseVisualStyleBackColor = true;
-            // 
-            // splitContainer2
-            // 
-            this.splitContainer2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.splitContainer2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.splitContainer2.Location = new System.Drawing.Point(3, 321);
-            this.splitContainer2.Name = "splitContainer2";
-            // 
-            // splitContainer2.Panel1
-            // 
-            this.splitContainer2.Panel1.Controls.Add(this.pictureBox1);
-            // 
-            // splitContainer2.Panel2
-            // 
-            this.splitContainer2.Panel2.Controls.Add(this.NamesBirthdayPeopleLabel);
-            this.splitContainer2.Panel2.Controls.Add(this.BirtdayLabel);
-            this.splitContainer2.Size = new System.Drawing.Size(510, 90);
-            this.splitContainer2.SplitterDistance = 90;
-            this.splitContainer2.TabIndex = 23;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(84, 84);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // NamesBirthdayPeopleLabel
-            // 
-            this.NamesBirthdayPeopleLabel.AutoSize = true;
-            this.NamesBirthdayPeopleLabel.Location = new System.Drawing.Point(14, 56);
-            this.NamesBirthdayPeopleLabel.Name = "NamesBirthdayPeopleLabel";
-            this.NamesBirthdayPeopleLabel.Size = new System.Drawing.Size(0, 13);
-            this.NamesBirthdayPeopleLabel.TabIndex = 23;
-            // 
-            // BirtdayLabel
-            // 
-            this.BirtdayLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BirtdayLabel.AutoSize = true;
-            this.BirtdayLabel.Location = new System.Drawing.Point(14, 31);
-            this.BirtdayLabel.Name = "BirtdayLabel";
-            this.BirtdayLabel.Size = new System.Drawing.Size(120, 13);
-            this.BirtdayLabel.TabIndex = 22;
-            this.BirtdayLabel.Text = "Today is the birthday of ";
-            // 
-            // MainForm
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(804, 438);
-            this.Controls.Add(this.splitContainer1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.MinimumSize = new System.Drawing.Size(820, 476);
-            this.Name = "MainForm";
-            this.Text = "ContactsApp";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
-            this.splitContainer1.Panel1.ResumeLayout(false);
-            this.splitContainer1.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-            this.splitContainer1.ResumeLayout(false);
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.RemoveTableLayoutPanel.ResumeLayout(false);
-            this.EditTableLayoutPanel.ResumeLayout(false);
-            this.AddTableLayoutPanel.ResumeLayout(false);
-            this.splitContainer2.Panel1.ResumeLayout(false);
-            this.splitContainer2.Panel2.ResumeLayout(false);
-            this.splitContainer2.Panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
-            this.splitContainer2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+		/// <summary>
+		/// Требуемый метод для поддержки конструктора — не изменяйте 
+		/// содержимое этого метода с помощью редактора кода.
+		/// </summary>
+		private void InitializeComponent()
+		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+			menuStrip1 = new MenuStrip();
+			fileToolStripMenuItem = new ToolStripMenuItem();
+			editToolStripMenuItem = new ToolStripMenuItem();
+			addContactToolStripMenuItem = new ToolStripMenuItem();
+			editContactToolStripMenuItem = new ToolStripMenuItem();
+			deToolStripMenuItem = new ToolStripMenuItem();
+			helpToolStripMenuItem = new ToolStripMenuItem();
+			SurnameTextBox = new TextBox();
+			NameTextBox = new TextBox();
+			PhoneTextBox = new TextBox();
+			EmailTextBox = new TextBox();
+			VkIDTextBox = new TextBox();
+			SurnameLabel = new Label();
+			NameLabel = new Label();
+			EmailLabel = new Label();
+			BirthdayLabel = new Label();
+			PhoneLabel = new Label();
+			VkIDLabel = new Label();
+			BirthdayDateTimePicker = new DateTimePicker();
+			tableLayoutPanel1 = new TableLayoutPanel();
+			Findlabel = new Label();
+			FindTextBox = new TextBox();
+			tableLayoutPanel2 = new TableLayoutPanel();
+			splitContainer1 = new SplitContainer();
+			tableLayoutPanel3 = new TableLayoutPanel();
+			AllContactsListBox = new ListBox();
+			RemoveTableLayoutPanel = new TableLayoutPanel();
+			RemoveButton = new Button();
+			EditTableLayoutPanel = new TableLayoutPanel();
+			EditButton = new Button();
+			AddTableLayoutPanel = new TableLayoutPanel();
+			AddButton = new Button();
+			splitContainer2 = new SplitContainer();
+			pictureBox1 = new PictureBox();
+			NamesBirthdayPeopleLabel = new Label();
+			BirtdayLabel = new Label();
+			menuStrip1.SuspendLayout();
+			tableLayoutPanel1.SuspendLayout();
+			tableLayoutPanel2.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
+			splitContainer1.Panel1.SuspendLayout();
+			splitContainer1.Panel2.SuspendLayout();
+			splitContainer1.SuspendLayout();
+			tableLayoutPanel3.SuspendLayout();
+			RemoveTableLayoutPanel.SuspendLayout();
+			EditTableLayoutPanel.SuspendLayout();
+			AddTableLayoutPanel.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)splitContainer2).BeginInit();
+			splitContainer2.Panel1.SuspendLayout();
+			splitContainer2.Panel2.SuspendLayout();
+			splitContainer2.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+			SuspendLayout();
+			// 
+			// menuStrip1
+			// 
+			menuStrip1.ImageScalingSize = new Size(20, 20);
+			menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, editToolStripMenuItem, helpToolStripMenuItem });
+			menuStrip1.Location = new Point(0, 0);
+			menuStrip1.Name = "menuStrip1";
+			menuStrip1.Padding = new Padding(8, 3, 0, 3);
+			menuStrip1.Size = new Size(1072, 30);
+			menuStrip1.TabIndex = 0;
+			menuStrip1.Text = "FileEditHelp";
+			// 
+			// fileToolStripMenuItem
+			// 
+			fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+			fileToolStripMenuItem.Size = new Size(46, 24);
+			fileToolStripMenuItem.Text = "File";
+			fileToolStripMenuItem.Click += FileToolStripMenuItem_Click;
+			// 
+			// editToolStripMenuItem
+			// 
+			editToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { addContactToolStripMenuItem, editContactToolStripMenuItem, deToolStripMenuItem });
+			editToolStripMenuItem.Name = "editToolStripMenuItem";
+			editToolStripMenuItem.Size = new Size(49, 24);
+			editToolStripMenuItem.Text = "Edit";
+			// 
+			// addContactToolStripMenuItem
+			// 
+			addContactToolStripMenuItem.Name = "addContactToolStripMenuItem";
+			addContactToolStripMenuItem.Size = new Size(201, 26);
+			addContactToolStripMenuItem.Text = "Add Contact";
+			addContactToolStripMenuItem.Click += AddContactToolStripMenuItem_Click;
+			// 
+			// editContactToolStripMenuItem
+			// 
+			editContactToolStripMenuItem.Name = "editContactToolStripMenuItem";
+			editContactToolStripMenuItem.Size = new Size(201, 26);
+			editContactToolStripMenuItem.Text = "Edit Contact";
+			editContactToolStripMenuItem.Click += EditContactToolStripMenuItem_Click;
+			// 
+			// deToolStripMenuItem
+			// 
+			deToolStripMenuItem.Name = "deToolStripMenuItem";
+			deToolStripMenuItem.Size = new Size(201, 26);
+			deToolStripMenuItem.Text = "Remove Contact";
+			deToolStripMenuItem.Click += DeleteToolStripMenuItem_Click;
+			// 
+			// helpToolStripMenuItem
+			// 
+			helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+			helpToolStripMenuItem.Size = new Size(55, 24);
+			helpToolStripMenuItem.Text = "Help";
+			helpToolStripMenuItem.Click += HelpToolStripMenuItem_Click;
+			// 
+			// SurnameTextBox
+			// 
+			SurnameTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			SurnameTextBox.Location = new Point(104, 10);
+			SurnameTextBox.Margin = new Padding(4, 5, 4, 5);
+			SurnameTextBox.Name = "SurnameTextBox";
+			SurnameTextBox.ReadOnly = true;
+			SurnameTextBox.Size = new Size(547, 27);
+			SurnameTextBox.TabIndex = 1;
+			// 
+			// NameTextBox
+			// 
+			NameTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			NameTextBox.Location = new Point(104, 57);
+			NameTextBox.Margin = new Padding(4, 5, 4, 5);
+			NameTextBox.Name = "NameTextBox";
+			NameTextBox.ReadOnly = true;
+			NameTextBox.Size = new Size(547, 27);
+			NameTextBox.TabIndex = 2;
+			// 
+			// PhoneTextBox
+			// 
+			PhoneTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			PhoneTextBox.Location = new Point(104, 151);
+			PhoneTextBox.Margin = new Padding(4, 5, 4, 5);
+			PhoneTextBox.Name = "PhoneTextBox";
+			PhoneTextBox.ReadOnly = true;
+			PhoneTextBox.Size = new Size(547, 27);
+			PhoneTextBox.TabIndex = 3;
+			// 
+			// EmailTextBox
+			// 
+			EmailTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			EmailTextBox.Location = new Point(104, 198);
+			EmailTextBox.Margin = new Padding(4, 5, 4, 5);
+			EmailTextBox.Name = "EmailTextBox";
+			EmailTextBox.ReadOnly = true;
+			EmailTextBox.Size = new Size(547, 27);
+			EmailTextBox.TabIndex = 5;
+			// 
+			// VkIDTextBox
+			// 
+			VkIDTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			VkIDTextBox.Location = new Point(104, 246);
+			VkIDTextBox.Margin = new Padding(4, 5, 4, 5);
+			VkIDTextBox.Name = "VkIDTextBox";
+			VkIDTextBox.ReadOnly = true;
+			VkIDTextBox.Size = new Size(547, 27);
+			VkIDTextBox.TabIndex = 6;
+			// 
+			// SurnameLabel
+			// 
+			SurnameLabel.Anchor = AnchorStyles.Right;
+			SurnameLabel.AutoSize = true;
+			SurnameLabel.Font = new Font("Microsoft Sans Serif", 8.25F);
+			SurnameLabel.Location = new Point(27, 15);
+			SurnameLabel.Margin = new Padding(4, 0, 4, 0);
+			SurnameLabel.Name = "SurnameLabel";
+			SurnameLabel.Size = new Size(69, 17);
+			SurnameLabel.TabIndex = 7;
+			SurnameLabel.Text = "Surname:";
+			// 
+			// NameLabel
+			// 
+			NameLabel.Anchor = AnchorStyles.Right;
+			NameLabel.AutoSize = true;
+			NameLabel.Font = new Font("Microsoft Sans Serif", 8.25F);
+			NameLabel.Location = new Point(47, 62);
+			NameLabel.Margin = new Padding(4, 0, 4, 0);
+			NameLabel.Name = "NameLabel";
+			NameLabel.Size = new Size(49, 17);
+			NameLabel.TabIndex = 8;
+			NameLabel.Text = "Name:";
+			// 
+			// EmailLabel
+			// 
+			EmailLabel.Anchor = AnchorStyles.Right;
+			EmailLabel.AutoSize = true;
+			EmailLabel.Font = new Font("Microsoft Sans Serif", 8.25F);
+			EmailLabel.Location = new Point(46, 203);
+			EmailLabel.Margin = new Padding(4, 0, 4, 0);
+			EmailLabel.Name = "EmailLabel";
+			EmailLabel.Size = new Size(50, 17);
+			EmailLabel.TabIndex = 9;
+			EmailLabel.Text = "e-mail:";
+			// 
+			// BirthdayLabel
+			// 
+			BirthdayLabel.Anchor = AnchorStyles.Right;
+			BirthdayLabel.AutoSize = true;
+			BirthdayLabel.Font = new Font("Microsoft Sans Serif", 8.25F);
+			BirthdayLabel.Location = new Point(32, 109);
+			BirthdayLabel.Margin = new Padding(4, 0, 4, 0);
+			BirthdayLabel.Name = "BirthdayLabel";
+			BirthdayLabel.Size = new Size(64, 17);
+			BirthdayLabel.TabIndex = 10;
+			BirthdayLabel.Text = "Birthday:";
+			// 
+			// PhoneLabel
+			// 
+			PhoneLabel.Anchor = AnchorStyles.Right;
+			PhoneLabel.AutoSize = true;
+			PhoneLabel.Font = new Font("Microsoft Sans Serif", 8.25F);
+			PhoneLabel.Location = new Point(43, 156);
+			PhoneLabel.Margin = new Padding(4, 0, 4, 0);
+			PhoneLabel.Name = "PhoneLabel";
+			PhoneLabel.Size = new Size(53, 17);
+			PhoneLabel.TabIndex = 11;
+			PhoneLabel.Text = "Phone:";
+			// 
+			// VkIDLabel
+			// 
+			VkIDLabel.Anchor = AnchorStyles.Right;
+			VkIDLabel.AutoSize = true;
+			VkIDLabel.Font = new Font("Microsoft Sans Serif", 8.25F);
+			VkIDLabel.Location = new Point(40, 251);
+			VkIDLabel.Margin = new Padding(4, 0, 4, 0);
+			VkIDLabel.Name = "VkIDLabel";
+			VkIDLabel.Size = new Size(56, 17);
+			VkIDLabel.TabIndex = 12;
+			VkIDLabel.Text = "vk.com:";
+			// 
+			// BirthdayDateTimePicker
+			// 
+			BirthdayDateTimePicker.Anchor = AnchorStyles.Left;
+			BirthdayDateTimePicker.Location = new Point(104, 104);
+			BirthdayDateTimePicker.Margin = new Padding(4, 5, 4, 5);
+			BirthdayDateTimePicker.MaxDate = new DateTime(2021, 12, 22, 0, 0, 0, 0);
+			BirthdayDateTimePicker.MinDate = new DateTime(1900, 1, 1, 0, 0, 0, 0);
+			BirthdayDateTimePicker.Name = "BirthdayDateTimePicker";
+			BirthdayDateTimePicker.Size = new Size(195, 27);
+			BirthdayDateTimePicker.TabIndex = 15;
+			BirthdayDateTimePicker.Value = new DateTime(2020, 7, 6, 0, 0, 0, 0);
+			// 
+			// tableLayoutPanel1
+			// 
+			tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+			tableLayoutPanel1.ColumnCount = 2;
+			tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15.38461F));
+			tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 84.61539F));
+			tableLayoutPanel1.Controls.Add(NameLabel, 0, 1);
+			tableLayoutPanel1.Controls.Add(NameTextBox, 1, 1);
+			tableLayoutPanel1.Controls.Add(BirthdayLabel, 0, 2);
+			tableLayoutPanel1.Controls.Add(BirthdayDateTimePicker, 1, 2);
+			tableLayoutPanel1.Controls.Add(PhoneLabel, 0, 3);
+			tableLayoutPanel1.Controls.Add(PhoneTextBox, 1, 3);
+			tableLayoutPanel1.Controls.Add(VkIDTextBox, 1, 5);
+			tableLayoutPanel1.Controls.Add(VkIDLabel, 0, 5);
+			tableLayoutPanel1.Controls.Add(EmailTextBox, 1, 4);
+			tableLayoutPanel1.Controls.Add(SurnameTextBox, 1, 0);
+			tableLayoutPanel1.Controls.Add(EmailLabel, 0, 4);
+			tableLayoutPanel1.Controls.Add(SurnameLabel, 0, 0);
+			tableLayoutPanel1.Location = new Point(4, 5);
+			tableLayoutPanel1.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel1.Name = "tableLayoutPanel1";
+			tableLayoutPanel1.RowCount = 6;
+			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
+			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
+			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
+			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
+			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
+			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
+			tableLayoutPanel1.Size = new Size(655, 285);
+			tableLayoutPanel1.TabIndex = 21;
+			// 
+			// Findlabel
+			// 
+			Findlabel.Anchor = AnchorStyles.Left;
+			Findlabel.AutoSize = true;
+			Findlabel.Font = new Font("Microsoft Sans Serif", 8.25F);
+			Findlabel.Location = new Point(4, 14);
+			Findlabel.Margin = new Padding(4, 0, 4, 0);
+			Findlabel.Name = "Findlabel";
+			Findlabel.Size = new Size(39, 17);
+			Findlabel.TabIndex = 16;
+			Findlabel.Text = "Find:";
+			// 
+			// FindTextBox
+			// 
+			FindTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			FindTextBox.Location = new Point(53, 9);
+			FindTextBox.Margin = new Padding(4, 5, 4, 5);
+			FindTextBox.Name = "FindTextBox";
+			FindTextBox.Size = new Size(313, 27);
+			FindTextBox.TabIndex = 13;
+			// 
+			// tableLayoutPanel2
+			// 
+			tableLayoutPanel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+			tableLayoutPanel2.ColumnCount = 2;
+			tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 13.30935F));
+			tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 86.69065F));
+			tableLayoutPanel2.Controls.Add(Findlabel, 0, 0);
+			tableLayoutPanel2.Controls.Add(FindTextBox, 1, 0);
+			tableLayoutPanel2.Location = new Point(4, 5);
+			tableLayoutPanel2.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel2.Name = "tableLayoutPanel2";
+			tableLayoutPanel2.RowCount = 1;
+			tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+			tableLayoutPanel2.Size = new Size(370, 45);
+			tableLayoutPanel2.TabIndex = 22;
+			// 
+			// splitContainer1
+			// 
+			splitContainer1.Dock = DockStyle.Fill;
+			splitContainer1.Location = new Point(0, 30);
+			splitContainer1.Margin = new Padding(4, 5, 4, 5);
+			splitContainer1.Name = "splitContainer1";
+			// 
+			// splitContainer1.Panel1
+			// 
+			splitContainer1.Panel1.Controls.Add(tableLayoutPanel3);
+			splitContainer1.Panel1.Controls.Add(RemoveTableLayoutPanel);
+			splitContainer1.Panel1.Controls.Add(EditTableLayoutPanel);
+			splitContainer1.Panel1.Controls.Add(AddTableLayoutPanel);
+			splitContainer1.Panel1.Controls.Add(tableLayoutPanel2);
+			// 
+			// splitContainer1.Panel2
+			// 
+			splitContainer1.Panel2.Controls.Add(splitContainer2);
+			splitContainer1.Panel2.Controls.Add(tableLayoutPanel1);
+			splitContainer1.Size = new Size(1072, 644);
+			splitContainer1.SplitterDistance = 378;
+			splitContainer1.SplitterWidth = 5;
+			splitContainer1.TabIndex = 25;
+			// 
+			// tableLayoutPanel3
+			// 
+			tableLayoutPanel3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+			tableLayoutPanel3.ColumnCount = 1;
+			tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+			tableLayoutPanel3.Controls.Add(AllContactsListBox, 0, 0);
+			tableLayoutPanel3.Location = new Point(4, 51);
+			tableLayoutPanel3.Margin = new Padding(4, 5, 4, 5);
+			tableLayoutPanel3.Name = "tableLayoutPanel3";
+			tableLayoutPanel3.RowCount = 1;
+			tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+			tableLayoutPanel3.Size = new Size(370, 527);
+			tableLayoutPanel3.TabIndex = 25;
+			// 
+			// AllContactsListBox
+			// 
+			AllContactsListBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+			AllContactsListBox.FormattingEnabled = true;
+			AllContactsListBox.Location = new Point(4, 5);
+			AllContactsListBox.Margin = new Padding(4, 5, 4, 5);
+			AllContactsListBox.Name = "AllContactsListBox";
+			AllContactsListBox.ScrollAlwaysVisible = true;
+			AllContactsListBox.Size = new Size(362, 504);
+			AllContactsListBox.TabIndex = 17;
+			AllContactsListBox.SelectedIndexChanged += AllContactsListBox_SelectedIndexChanged;
+			// 
+			// RemoveTableLayoutPanel
+			// 
+			RemoveTableLayoutPanel.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+			RemoveTableLayoutPanel.ColumnCount = 1;
+			RemoveTableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+			RemoveTableLayoutPanel.Controls.Add(RemoveButton, 0, 0);
+			RemoveTableLayoutPanel.Location = new Point(92, 587);
+			RemoveTableLayoutPanel.Margin = new Padding(4, 5, 4, 5);
+			RemoveTableLayoutPanel.Name = "RemoveTableLayoutPanel";
+			RemoveTableLayoutPanel.RowCount = 1;
+			RemoveTableLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+			RemoveTableLayoutPanel.Size = new Size(40, 46);
+			RemoveTableLayoutPanel.TabIndex = 26;
+			// 
+			// RemoveButton
+			// 
+			RemoveButton.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+			RemoveButton.BackgroundImage = (Image)resources.GetObject("RemoveButton.BackgroundImage");
+			RemoveButton.BackgroundImageLayout = ImageLayout.Stretch;
+			RemoveButton.FlatAppearance.BorderColor = SystemColors.Control;
+			RemoveButton.FlatStyle = FlatStyle.Flat;
+			RemoveButton.ForeColor = SystemColors.Control;
+			RemoveButton.Location = new Point(4, 5);
+			RemoveButton.Margin = new Padding(4, 5, 4, 5);
+			RemoveButton.Name = "RemoveButton";
+			RemoveButton.Size = new Size(32, 36);
+			RemoveButton.TabIndex = 20;
+			RemoveButton.UseVisualStyleBackColor = true;
+			RemoveButton.Click += RemoveButton_Click;
+			// 
+			// EditTableLayoutPanel
+			// 
+			EditTableLayoutPanel.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+			EditTableLayoutPanel.ColumnCount = 1;
+			EditTableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+			EditTableLayoutPanel.Controls.Add(EditButton, 0, 0);
+			EditTableLayoutPanel.Location = new Point(48, 587);
+			EditTableLayoutPanel.Margin = new Padding(4, 5, 4, 5);
+			EditTableLayoutPanel.Name = "EditTableLayoutPanel";
+			EditTableLayoutPanel.RowCount = 1;
+			EditTableLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+			EditTableLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, 46F));
+			EditTableLayoutPanel.Size = new Size(40, 46);
+			EditTableLayoutPanel.TabIndex = 26;
+			// 
+			// EditButton
+			// 
+			EditButton.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+			EditButton.BackColor = SystemColors.Control;
+			EditButton.BackgroundImage = (Image)resources.GetObject("EditButton.BackgroundImage");
+			EditButton.BackgroundImageLayout = ImageLayout.Center;
+			EditButton.FlatAppearance.BorderColor = SystemColors.Control;
+			EditButton.FlatStyle = FlatStyle.Flat;
+			EditButton.Location = new Point(4, 5);
+			EditButton.Margin = new Padding(4, 5, 4, 5);
+			EditButton.Name = "EditButton";
+			EditButton.Size = new Size(32, 36);
+			EditButton.TabIndex = 19;
+			EditButton.UseVisualStyleBackColor = false;
+			EditButton.Click += EditButton_Click;
+			// 
+			// AddTableLayoutPanel
+			// 
+			AddTableLayoutPanel.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+			AddTableLayoutPanel.ColumnCount = 1;
+			AddTableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+			AddTableLayoutPanel.Controls.Add(AddButton, 0, 0);
+			AddTableLayoutPanel.Location = new Point(4, 587);
+			AddTableLayoutPanel.Margin = new Padding(4, 5, 4, 5);
+			AddTableLayoutPanel.Name = "AddTableLayoutPanel";
+			AddTableLayoutPanel.RowCount = 1;
+			AddTableLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+			AddTableLayoutPanel.Size = new Size(40, 46);
+			AddTableLayoutPanel.TabIndex = 25;
+			// 
+			// AddButton
+			// 
+			AddButton.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+			AddButton.BackgroundImage = (Image)resources.GetObject("AddButton.BackgroundImage");
+			AddButton.BackgroundImageLayout = ImageLayout.Center;
+			AddButton.FlatAppearance.BorderColor = SystemColors.Control;
+			AddButton.FlatStyle = FlatStyle.Flat;
+			AddButton.Location = new Point(4, 5);
+			AddButton.Margin = new Padding(4, 5, 4, 5);
+			AddButton.Name = "AddButton";
+			AddButton.Size = new Size(32, 36);
+			AddButton.TabIndex = 18;
+			AddButton.UseVisualStyleBackColor = true;
+			AddButton.Click += AddButton_Click;
+			// 
+			// splitContainer2
+			// 
+			splitContainer2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+			splitContainer2.BackColor = SystemColors.ActiveCaption;
+			splitContainer2.Location = new Point(4, 501);
+			splitContainer2.Margin = new Padding(4, 5, 4, 5);
+			splitContainer2.Name = "splitContainer2";
+			// 
+			// splitContainer2.Panel1
+			// 
+			splitContainer2.Panel1.Controls.Add(pictureBox1);
+			// 
+			// splitContainer2.Panel2
+			// 
+			splitContainer2.Panel2.Controls.Add(NamesBirthdayPeopleLabel);
+			splitContainer2.Panel2.Controls.Add(BirtdayLabel);
+			splitContainer2.Size = new Size(655, 138);
+			splitContainer2.SplitterDistance = 94;
+			splitContainer2.SplitterWidth = 5;
+			splitContainer2.TabIndex = 23;
+			// 
+			// pictureBox1
+			// 
+			pictureBox1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+			pictureBox1.BackgroundImageLayout = ImageLayout.Center;
+			pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+			pictureBox1.Location = new Point(4, 5);
+			pictureBox1.Margin = new Padding(4, 5, 4, 5);
+			pictureBox1.Name = "pictureBox1";
+			pictureBox1.Size = new Size(112, 129);
+			pictureBox1.TabIndex = 0;
+			pictureBox1.TabStop = false;
+			// 
+			// NamesBirthdayPeopleLabel
+			// 
+			NamesBirthdayPeopleLabel.AutoSize = true;
+			NamesBirthdayPeopleLabel.Location = new Point(19, 86);
+			NamesBirthdayPeopleLabel.Margin = new Padding(4, 0, 4, 0);
+			NamesBirthdayPeopleLabel.Name = "NamesBirthdayPeopleLabel";
+			NamesBirthdayPeopleLabel.Size = new Size(0, 20);
+			NamesBirthdayPeopleLabel.TabIndex = 23;
+			// 
+			// BirtdayLabel
+			// 
+			BirtdayLabel.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+			BirtdayLabel.AutoSize = true;
+			BirtdayLabel.Location = new Point(19, 48);
+			BirtdayLabel.Margin = new Padding(4, 0, 4, 0);
+			BirtdayLabel.Name = "BirtdayLabel";
+			BirtdayLabel.Size = new Size(169, 20);
+			BirtdayLabel.TabIndex = 22;
+			BirtdayLabel.Text = "Today is the birthday of ";
+			// 
+			// MainForm
+			// 
+			AutoScaleDimensions = new SizeF(8F, 20F);
+			AutoScaleMode = AutoScaleMode.Font;
+			ClientSize = new Size(1072, 674);
+			Controls.Add(splitContainer1);
+			Controls.Add(menuStrip1);
+			MainMenuStrip = menuStrip1;
+			Margin = new Padding(4, 5, 4, 5);
+			MinimumSize = new Size(1087, 707);
+			Name = "MainForm";
+			Text = "ContactsApp";
+			Load += MainForm_Load;
+			menuStrip1.ResumeLayout(false);
+			menuStrip1.PerformLayout();
+			tableLayoutPanel1.ResumeLayout(false);
+			tableLayoutPanel1.PerformLayout();
+			tableLayoutPanel2.ResumeLayout(false);
+			tableLayoutPanel2.PerformLayout();
+			splitContainer1.Panel1.ResumeLayout(false);
+			splitContainer1.Panel2.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
+			splitContainer1.ResumeLayout(false);
+			tableLayoutPanel3.ResumeLayout(false);
+			RemoveTableLayoutPanel.ResumeLayout(false);
+			EditTableLayoutPanel.ResumeLayout(false);
+			AddTableLayoutPanel.ResumeLayout(false);
+			splitContainer2.Panel1.ResumeLayout(false);
+			splitContainer2.Panel2.ResumeLayout(false);
+			splitContainer2.Panel2.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)splitContainer2).EndInit();
+			splitContainer2.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+			ResumeLayout(false);
+			PerformLayout();
+		}
 
-        }
+		#endregion
 
-        #endregion
-
-        private System.Windows.Forms.MenuStrip menuStrip1;
+		private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;

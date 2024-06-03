@@ -20,231 +20,254 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+		#region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
-        private void InitializeComponent()
-        {
-            this.AddEditContactSurnameTextBox = new System.Windows.Forms.TextBox();
-            this.AddEditContactNameTextBox = new System.Windows.Forms.TextBox();
-            this.AddEditContactBirthdayDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.AddEditContactPhoneTextBox = new System.Windows.Forms.TextBox();
-            this.AddEditContactEmailTextBox = new System.Windows.Forms.TextBox();
-            this.AddEditContactVkIDTextBox = new System.Windows.Forms.TextBox();
-            this.AddEditContactSurnameLabel = new System.Windows.Forms.Label();
-            this.AddEditContactNameLabel = new System.Windows.Forms.Label();
-            this.AddEditContactBirthdayLabel = new System.Windows.Forms.Label();
-            this.AddEditContactPhoneLabel = new System.Windows.Forms.Label();
-            this.AddEditContactEmailLabel = new System.Windows.Forms.Label();
-            this.AddEditContactVkIDLabel = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.AddEditCancelButton = new System.Windows.Forms.Button();
-            this.AddEditContactOKButton = new System.Windows.Forms.Button();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
-            this.SuspendLayout();
-            // 
-            // AddEditContactSurnameTextBox
-            // 
-            this.AddEditContactSurnameTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.AddEditContactSurnameTextBox.Location = new System.Drawing.Point(97, 5);
-            this.AddEditContactSurnameTextBox.Name = "AddEditContactSurnameTextBox";
-            this.AddEditContactSurnameTextBox.Size = new System.Drawing.Size(319, 20);
-            this.AddEditContactSurnameTextBox.TabIndex = 0;
-            // 
-            // AddEditContactNameTextBox
-            // 
-            this.AddEditContactNameTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.AddEditContactNameTextBox.Location = new System.Drawing.Point(97, 36);
-            this.AddEditContactNameTextBox.Name = "AddEditContactNameTextBox";
-            this.AddEditContactNameTextBox.Size = new System.Drawing.Size(319, 20);
-            this.AddEditContactNameTextBox.TabIndex = 1;
-            // 
-            // AddEditContactBirthdayDateTimePicker
-            // 
-            this.AddEditContactBirthdayDateTimePicker.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.AddEditContactBirthdayDateTimePicker.Location = new System.Drawing.Point(97, 67);
-            this.AddEditContactBirthdayDateTimePicker.Name = "AddEditContactBirthdayDateTimePicker";
-            this.AddEditContactBirthdayDateTimePicker.Size = new System.Drawing.Size(142, 20);
-            this.AddEditContactBirthdayDateTimePicker.TabIndex = 2;
-            // 
-            // AddEditContactPhoneTextBox
-            // 
-            this.AddEditContactPhoneTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.AddEditContactPhoneTextBox.Location = new System.Drawing.Point(97, 98);
-            this.AddEditContactPhoneTextBox.Name = "AddEditContactPhoneTextBox";
-            this.AddEditContactPhoneTextBox.Size = new System.Drawing.Size(319, 20);
-            this.AddEditContactPhoneTextBox.TabIndex = 3;
-            // 
-            // AddEditContactEmailTextBox
-            // 
-            this.AddEditContactEmailTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.AddEditContactEmailTextBox.Location = new System.Drawing.Point(97, 129);
-            this.AddEditContactEmailTextBox.Name = "AddEditContactEmailTextBox";
-            this.AddEditContactEmailTextBox.Size = new System.Drawing.Size(319, 20);
-            this.AddEditContactEmailTextBox.TabIndex = 4;
-            // 
-            // AddEditContactVkIDTextBox
-            // 
-            this.AddEditContactVkIDTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.AddEditContactVkIDTextBox.Location = new System.Drawing.Point(97, 162);
-            this.AddEditContactVkIDTextBox.Name = "AddEditContactVkIDTextBox";
-            this.AddEditContactVkIDTextBox.Size = new System.Drawing.Size(319, 20);
-            this.AddEditContactVkIDTextBox.TabIndex = 5;
-            // 
-            // AddEditContactSurnameLabel
-            // 
-            this.AddEditContactSurnameLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.AddEditContactSurnameLabel.AutoSize = true;
-            this.AddEditContactSurnameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.AddEditContactSurnameLabel.Location = new System.Drawing.Point(22, 7);
-            this.AddEditContactSurnameLabel.Name = "AddEditContactSurnameLabel";
-            this.AddEditContactSurnameLabel.Size = new System.Drawing.Size(69, 17);
-            this.AddEditContactSurnameLabel.TabIndex = 6;
-            this.AddEditContactSurnameLabel.Text = "Surname:";
-            // 
-            // AddEditContactNameLabel
-            // 
-            this.AddEditContactNameLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.AddEditContactNameLabel.AutoSize = true;
-            this.AddEditContactNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.AddEditContactNameLabel.Location = new System.Drawing.Point(42, 38);
-            this.AddEditContactNameLabel.Name = "AddEditContactNameLabel";
-            this.AddEditContactNameLabel.Size = new System.Drawing.Size(49, 17);
-            this.AddEditContactNameLabel.TabIndex = 7;
-            this.AddEditContactNameLabel.Text = "Name:";
-            // 
-            // AddEditContactBirthdayLabel
-            // 
-            this.AddEditContactBirthdayLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.AddEditContactBirthdayLabel.AutoSize = true;
-            this.AddEditContactBirthdayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.AddEditContactBirthdayLabel.Location = new System.Drawing.Point(27, 69);
-            this.AddEditContactBirthdayLabel.Name = "AddEditContactBirthdayLabel";
-            this.AddEditContactBirthdayLabel.Size = new System.Drawing.Size(64, 17);
-            this.AddEditContactBirthdayLabel.TabIndex = 8;
-            this.AddEditContactBirthdayLabel.Text = "Birthday:";
-            // 
-            // AddEditContactPhoneLabel
-            // 
-            this.AddEditContactPhoneLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.AddEditContactPhoneLabel.AutoSize = true;
-            this.AddEditContactPhoneLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.AddEditContactPhoneLabel.Location = new System.Drawing.Point(38, 100);
-            this.AddEditContactPhoneLabel.Name = "AddEditContactPhoneLabel";
-            this.AddEditContactPhoneLabel.Size = new System.Drawing.Size(53, 17);
-            this.AddEditContactPhoneLabel.TabIndex = 9;
-            this.AddEditContactPhoneLabel.Text = "Phone:";
-            // 
-            // AddEditContactEmailLabel
-            // 
-            this.AddEditContactEmailLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.AddEditContactEmailLabel.AutoSize = true;
-            this.AddEditContactEmailLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.AddEditContactEmailLabel.Location = new System.Drawing.Point(41, 131);
-            this.AddEditContactEmailLabel.Name = "AddEditContactEmailLabel";
-            this.AddEditContactEmailLabel.Size = new System.Drawing.Size(50, 17);
-            this.AddEditContactEmailLabel.TabIndex = 10;
-            this.AddEditContactEmailLabel.Text = "e-mail:";
-            // 
-            // AddEditContactVkIDLabel
-            // 
-            this.AddEditContactVkIDLabel.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.AddEditContactVkIDLabel.AutoSize = true;
-            this.AddEditContactVkIDLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.AddEditContactVkIDLabel.Location = new System.Drawing.Point(35, 164);
-            this.AddEditContactVkIDLabel.Name = "AddEditContactVkIDLabel";
-            this.AddEditContactVkIDLabel.Size = new System.Drawing.Size(56, 17);
-            this.AddEditContactVkIDLabel.TabIndex = 11;
-            this.AddEditContactVkIDLabel.Text = "vk.com:";
-            // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.46377F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 77.53623F));
-            this.tableLayoutPanel1.Controls.Add(this.AddEditContactSurnameLabel, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.AddEditContactBirthdayDateTimePicker, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.AddEditContactVkIDTextBox, 1, 5);
-            this.tableLayoutPanel1.Controls.Add(this.AddEditContactVkIDLabel, 0, 5);
-            this.tableLayoutPanel1.Controls.Add(this.AddEditContactEmailTextBox, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.AddEditContactSurnameTextBox, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.AddEditContactPhoneTextBox, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.AddEditContactNameLabel, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.AddEditContactNameTextBox, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.AddEditContactBirthdayLabel, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.AddEditContactPhoneLabel, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.AddEditContactEmailLabel, 0, 4);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(9, 12);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 6;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(419, 190);
-            this.tableLayoutPanel1.TabIndex = 12;
-            // 
-            // tableLayoutPanel2
-            // 
-            this.tableLayoutPanel2.ColumnCount = 2;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Controls.Add(this.AddEditCancelButton, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.AddEditContactOKButton, 0, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(252, 208);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 1;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(177, 31);
-            this.tableLayoutPanel2.TabIndex = 13;
-            // 
-            // AddEditCancelButton
-            // 
-            this.AddEditCancelButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.AddEditCancelButton.Location = new System.Drawing.Point(91, 3);
-            this.AddEditCancelButton.Name = "AddEditCancelButton";
-            this.AddEditCancelButton.Size = new System.Drawing.Size(83, 25);
-            this.AddEditCancelButton.TabIndex = 15;
-            this.AddEditCancelButton.Text = "Cancel";
-            this.AddEditCancelButton.UseVisualStyleBackColor = true;
-            // 
-            // AddEditContactOKButton
-            // 
-            this.AddEditContactOKButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.AddEditContactOKButton.Location = new System.Drawing.Point(3, 3);
-            this.AddEditContactOKButton.Name = "AddEditContactOKButton";
-            this.AddEditContactOKButton.Size = new System.Drawing.Size(82, 25);
-            this.AddEditContactOKButton.TabIndex = 14;
-            this.AddEditContactOKButton.Text = "OK";
-            this.AddEditContactOKButton.UseVisualStyleBackColor = true;
-            // 
-            // AddEditContact
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(438, 249);
-            this.Controls.Add(this.tableLayoutPanel2);
-            this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "AddEditContact";
-            this.Text = "Add/Edit Contact";
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.ResumeLayout(false);
+		/// <summary>
+		/// Required method for Designer support - do not modify
+		/// the contents of this method with the code editor.
+		/// </summary>
+		private void InitializeComponent()
+		{
+			AddEditContactSurnameTextBox = new TextBox();
+			AddEditContactNameTextBox = new TextBox();
+			AddEditContactBirthdayDateTimePicker = new DateTimePicker();
+			AddEditContactPhoneTextBox = new TextBox();
+			AddEditContactEmailTextBox = new TextBox();
+			AddEditContactVkIDTextBox = new TextBox();
+			AddEditContactSurnameLabel = new Label();
+			AddEditContactNameLabel = new Label();
+			AddEditContactBirthdayLabel = new Label();
+			AddEditContactPhoneLabel = new Label();
+			AddEditContactEmailLabel = new Label();
+			AddEditContactVkIDLabel = new Label();
+			tableLayoutPanel1 = new TableLayoutPanel();
+			tableLayoutPanel2 = new TableLayoutPanel();
+			AddEditCancelButton = new Button();
+			AddEditContactOKButton = new Button();
+			tableLayoutPanel1.SuspendLayout();
+			tableLayoutPanel2.SuspendLayout();
+			SuspendLayout();
+			// 
+			// AddEditContactSurnameTextBox
+			// 
+			AddEditContactSurnameTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			AddEditContactSurnameTextBox.Location = new Point(121, 6);
+			AddEditContactSurnameTextBox.Margin = new Padding(4);
+			AddEditContactSurnameTextBox.Name = "AddEditContactSurnameTextBox";
+			AddEditContactSurnameTextBox.Size = new Size(399, 27);
+			AddEditContactSurnameTextBox.TabIndex = 0;
+			AddEditContactSurnameTextBox.TextChanged += AddEditContactSurnameTextBox_TextChanged;
+			// 
+			// AddEditContactNameTextBox
+			// 
+			AddEditContactNameTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			AddEditContactNameTextBox.Location = new Point(121, 45);
+			AddEditContactNameTextBox.Margin = new Padding(4);
+			AddEditContactNameTextBox.Name = "AddEditContactNameTextBox";
+			AddEditContactNameTextBox.Size = new Size(399, 27);
+			AddEditContactNameTextBox.TabIndex = 1;
+			AddEditContactNameTextBox.TextChanged += AddEditContactNameTextBox_TextChanged;
+			// 
+			// AddEditContactBirthdayDateTimePicker
+			// 
+			AddEditContactBirthdayDateTimePicker.Anchor = AnchorStyles.Left;
+			AddEditContactBirthdayDateTimePicker.Location = new Point(121, 84);
+			AddEditContactBirthdayDateTimePicker.Margin = new Padding(4);
+			AddEditContactBirthdayDateTimePicker.Name = "AddEditContactBirthdayDateTimePicker";
+			AddEditContactBirthdayDateTimePicker.Size = new Size(176, 27);
+			AddEditContactBirthdayDateTimePicker.TabIndex = 2;
+			// 
+			// AddEditContactPhoneTextBox
+			// 
+			AddEditContactPhoneTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			AddEditContactPhoneTextBox.Location = new Point(121, 123);
+			AddEditContactPhoneTextBox.Margin = new Padding(4);
+			AddEditContactPhoneTextBox.Name = "AddEditContactPhoneTextBox";
+			AddEditContactPhoneTextBox.Size = new Size(399, 27);
+			AddEditContactPhoneTextBox.TabIndex = 3;
+			AddEditContactPhoneTextBox.TextChanged += AddEditContactPhoneTextBox_TextChanged;
+			// 
+			// AddEditContactEmailTextBox
+			// 
+			AddEditContactEmailTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			AddEditContactEmailTextBox.Location = new Point(121, 162);
+			AddEditContactEmailTextBox.Margin = new Padding(4);
+			AddEditContactEmailTextBox.Name = "AddEditContactEmailTextBox";
+			AddEditContactEmailTextBox.Size = new Size(399, 27);
+			AddEditContactEmailTextBox.TabIndex = 4;
+			AddEditContactEmailTextBox.TextChanged += AddEditContactEmailTextBox_TextChanged;
+			// 
+			// AddEditContactVkIDTextBox
+			// 
+			AddEditContactVkIDTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			AddEditContactVkIDTextBox.Location = new Point(121, 203);
+			AddEditContactVkIDTextBox.Margin = new Padding(4);
+			AddEditContactVkIDTextBox.Name = "AddEditContactVkIDTextBox";
+			AddEditContactVkIDTextBox.Size = new Size(399, 27);
+			AddEditContactVkIDTextBox.TabIndex = 5;
+			AddEditContactVkIDTextBox.TextChanged += AddEditContactVkIDTextBox_TextChanged;
+			// 
+			// AddEditContactSurnameLabel
+			// 
+			AddEditContactSurnameLabel.Anchor = AnchorStyles.Right;
+			AddEditContactSurnameLabel.AutoSize = true;
+			AddEditContactSurnameLabel.Font = new Font("Microsoft Sans Serif", 10F);
+			AddEditContactSurnameLabel.Location = new Point(32, 9);
+			AddEditContactSurnameLabel.Margin = new Padding(4, 0, 4, 0);
+			AddEditContactSurnameLabel.Name = "AddEditContactSurnameLabel";
+			AddEditContactSurnameLabel.Size = new Size(81, 20);
+			AddEditContactSurnameLabel.TabIndex = 6;
+			AddEditContactSurnameLabel.Text = "Surname:";
+			// 
+			// AddEditContactNameLabel
+			// 
+			AddEditContactNameLabel.Anchor = AnchorStyles.Right;
+			AddEditContactNameLabel.AutoSize = true;
+			AddEditContactNameLabel.Font = new Font("Microsoft Sans Serif", 10F);
+			AddEditContactNameLabel.Location = new Point(55, 48);
+			AddEditContactNameLabel.Margin = new Padding(4, 0, 4, 0);
+			AddEditContactNameLabel.Name = "AddEditContactNameLabel";
+			AddEditContactNameLabel.Size = new Size(58, 20);
+			AddEditContactNameLabel.TabIndex = 7;
+			AddEditContactNameLabel.Text = "Name:";
+			// 
+			// AddEditContactBirthdayLabel
+			// 
+			AddEditContactBirthdayLabel.Anchor = AnchorStyles.Right;
+			AddEditContactBirthdayLabel.AutoSize = true;
+			AddEditContactBirthdayLabel.Font = new Font("Microsoft Sans Serif", 10F);
+			AddEditContactBirthdayLabel.Location = new Point(37, 87);
+			AddEditContactBirthdayLabel.Margin = new Padding(4, 0, 4, 0);
+			AddEditContactBirthdayLabel.Name = "AddEditContactBirthdayLabel";
+			AddEditContactBirthdayLabel.Size = new Size(76, 20);
+			AddEditContactBirthdayLabel.TabIndex = 8;
+			AddEditContactBirthdayLabel.Text = "Birthday:";
+			// 
+			// AddEditContactPhoneLabel
+			// 
+			AddEditContactPhoneLabel.Anchor = AnchorStyles.Right;
+			AddEditContactPhoneLabel.AutoSize = true;
+			AddEditContactPhoneLabel.Font = new Font("Microsoft Sans Serif", 10F);
+			AddEditContactPhoneLabel.Location = new Point(52, 126);
+			AddEditContactPhoneLabel.Margin = new Padding(4, 0, 4, 0);
+			AddEditContactPhoneLabel.Name = "AddEditContactPhoneLabel";
+			AddEditContactPhoneLabel.Size = new Size(61, 20);
+			AddEditContactPhoneLabel.TabIndex = 9;
+			AddEditContactPhoneLabel.Text = "Phone:";
+			// 
+			// AddEditContactEmailLabel
+			// 
+			AddEditContactEmailLabel.Anchor = AnchorStyles.Right;
+			AddEditContactEmailLabel.AutoSize = true;
+			AddEditContactEmailLabel.Font = new Font("Microsoft Sans Serif", 10F);
+			AddEditContactEmailLabel.Location = new Point(53, 165);
+			AddEditContactEmailLabel.Margin = new Padding(4, 0, 4, 0);
+			AddEditContactEmailLabel.Name = "AddEditContactEmailLabel";
+			AddEditContactEmailLabel.Size = new Size(60, 20);
+			AddEditContactEmailLabel.TabIndex = 10;
+			AddEditContactEmailLabel.Text = "e-mail:";
+			// 
+			// AddEditContactVkIDLabel
+			// 
+			AddEditContactVkIDLabel.Anchor = AnchorStyles.Right;
+			AddEditContactVkIDLabel.AutoSize = true;
+			AddEditContactVkIDLabel.Font = new Font("Microsoft Sans Serif", 10F);
+			AddEditContactVkIDLabel.Location = new Point(47, 206);
+			AddEditContactVkIDLabel.Margin = new Padding(4, 0, 4, 0);
+			AddEditContactVkIDLabel.Name = "AddEditContactVkIDLabel";
+			AddEditContactVkIDLabel.Size = new Size(66, 20);
+			AddEditContactVkIDLabel.TabIndex = 11;
+			AddEditContactVkIDLabel.Text = "vk.com:";
+			// 
+			// tableLayoutPanel1
+			// 
+			tableLayoutPanel1.Anchor = AnchorStyles.None;
+			tableLayoutPanel1.ColumnCount = 2;
+			tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 22.46377F));
+			tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 77.53623F));
+			tableLayoutPanel1.Controls.Add(AddEditContactSurnameLabel, 0, 0);
+			tableLayoutPanel1.Controls.Add(AddEditContactBirthdayDateTimePicker, 1, 2);
+			tableLayoutPanel1.Controls.Add(AddEditContactVkIDTextBox, 1, 5);
+			tableLayoutPanel1.Controls.Add(AddEditContactVkIDLabel, 0, 5);
+			tableLayoutPanel1.Controls.Add(AddEditContactEmailTextBox, 1, 4);
+			tableLayoutPanel1.Controls.Add(AddEditContactSurnameTextBox, 1, 0);
+			tableLayoutPanel1.Controls.Add(AddEditContactPhoneTextBox, 1, 3);
+			tableLayoutPanel1.Controls.Add(AddEditContactNameLabel, 0, 1);
+			tableLayoutPanel1.Controls.Add(AddEditContactNameTextBox, 1, 1);
+			tableLayoutPanel1.Controls.Add(AddEditContactBirthdayLabel, 0, 2);
+			tableLayoutPanel1.Controls.Add(AddEditContactPhoneLabel, 0, 3);
+			tableLayoutPanel1.Controls.Add(AddEditContactEmailLabel, 0, 4);
+			tableLayoutPanel1.Location = new Point(11, 15);
+			tableLayoutPanel1.Margin = new Padding(4);
+			tableLayoutPanel1.Name = "tableLayoutPanel1";
+			tableLayoutPanel1.RowCount = 6;
+			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
+			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
+			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
+			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
+			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
+			tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.66667F));
+			tableLayoutPanel1.Size = new Size(524, 238);
+			tableLayoutPanel1.TabIndex = 12;
+			// 
+			// tableLayoutPanel2
+			// 
+			tableLayoutPanel2.ColumnCount = 2;
+			tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+			tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+			tableLayoutPanel2.Controls.Add(AddEditCancelButton, 1, 0);
+			tableLayoutPanel2.Controls.Add(AddEditContactOKButton, 0, 0);
+			tableLayoutPanel2.Location = new Point(315, 260);
+			tableLayoutPanel2.Margin = new Padding(4);
+			tableLayoutPanel2.Name = "tableLayoutPanel2";
+			tableLayoutPanel2.RowCount = 1;
+			tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+			tableLayoutPanel2.Size = new Size(221, 39);
+			tableLayoutPanel2.TabIndex = 13;
+			// 
+			// AddEditCancelButton
+			// 
+			AddEditCancelButton.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			AddEditCancelButton.Location = new Point(114, 4);
+			AddEditCancelButton.Margin = new Padding(4);
+			AddEditCancelButton.Name = "AddEditCancelButton";
+			AddEditCancelButton.Size = new Size(103, 31);
+			AddEditCancelButton.TabIndex = 15;
+			AddEditCancelButton.Text = "Cancel";
+			AddEditCancelButton.UseVisualStyleBackColor = true;
+			AddEditCancelButton.Click += AddEditCancelButton_Click;
+			// 
+			// AddEditContactOKButton
+			// 
+			AddEditContactOKButton.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+			AddEditContactOKButton.Location = new Point(4, 4);
+			AddEditContactOKButton.Margin = new Padding(4);
+			AddEditContactOKButton.Name = "AddEditContactOKButton";
+			AddEditContactOKButton.Size = new Size(102, 31);
+			AddEditContactOKButton.TabIndex = 14;
+			AddEditContactOKButton.Text = "OK";
+			AddEditContactOKButton.UseVisualStyleBackColor = true;
+			AddEditContactOKButton.Click += AddEditContactOKButton_Click;
+			// 
+			// AddEditContact
+			// 
+			AutoScaleDimensions = new SizeF(120F, 120F);
+			AutoScaleMode = AutoScaleMode.Dpi;
+			ClientSize = new Size(548, 311);
+			Controls.Add(tableLayoutPanel2);
+			Controls.Add(tableLayoutPanel1);
+			Margin = new Padding(4);
+			Name = "AddEditContact";
+			Text = "Add/Edit Contact";
+			tableLayoutPanel1.ResumeLayout(false);
+			tableLayoutPanel1.PerformLayout();
+			tableLayoutPanel2.ResumeLayout(false);
+			ResumeLayout(false);
+		}
 
-        }
+		#endregion
 
-        #endregion
-
-        private System.Windows.Forms.TextBox AddEditContactSurnameTextBox;
+		private System.Windows.Forms.TextBox AddEditContactSurnameTextBox;
         private System.Windows.Forms.TextBox AddEditContactNameTextBox;
         private System.Windows.Forms.DateTimePicker AddEditContactBirthdayDateTimePicker;
         private System.Windows.Forms.TextBox AddEditContactPhoneTextBox;
